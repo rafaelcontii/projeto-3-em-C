@@ -35,3 +35,10 @@ void listar_contatos() {
 }
 
 \\ok função listar
+
+void deletar_contato(char *telefone) {
+  for (int i = 0; i < num_contatos; i++) {
+    if (strcmp(agenda[i].telefone, telefone) == 0) {
+      for (int j = i; j < num_contatos - 1; j++) {
+        agenda[j] = agenda[j + 1];
+      }
