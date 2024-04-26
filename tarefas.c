@@ -49,3 +49,5 @@ void deletar_contato(char *telefone) {
   }
   printf("O Contato não foi encontrado!\n");
 }
+
+\\ ok função deletar
