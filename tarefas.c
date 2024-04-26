@@ -25,3 +25,6 @@ void adicionar_contato() {
 }
 
 \\ok funçao adicionar
+
+void listar_contatos() {
+  printf("Lista de contatos:\n");
