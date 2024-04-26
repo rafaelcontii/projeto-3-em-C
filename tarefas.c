@@ -71,3 +71,7 @@ void carregar_agenda() {
     printf("Erro ao abrir o arquivo!\n");
     return;
   }
+   num_contatos = fread(agenda, sizeof(Contato), MAX_CONTACTS, arquivo);
+  fclose(arquivo);
+  printf("Agenda carregada com Sucesso!\n");
+}
