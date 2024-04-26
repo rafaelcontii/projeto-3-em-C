@@ -75,3 +75,5 @@ void carregar_agenda() {
   fclose(arquivo);
   printf("Agenda carregada com Sucesso!\n");
 }
+
+//ok correção de erros função carregar agenda
