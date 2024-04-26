@@ -59,3 +59,7 @@ void salvar_agenda() {
     printf("Erro ao abrir o Arquivo!\n");
     return;
   }
+  fwrite(agenda, sizeof(Contato), num_contatos, arquivo);
+  fclose(arquivo);
+  printf("Agenda salva com Sucesso!\n");
+}
