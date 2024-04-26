@@ -63,3 +63,4 @@ void salvar_agenda() {
   fclose(arquivo);
   printf("Agenda salva com Sucesso!\n");
 }
+//ok função salvar agenda
