@@ -23,3 +23,5 @@ void adicionar_contato() {
            "adionar mais!\n");
   }
 }
+
+\\ok funçao adicionar
