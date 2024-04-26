@@ -42,3 +42,10 @@ void deletar_contato(char *telefone) {
       for (int j = i; j < num_contatos - 1; j++) {
         agenda[j] = agenda[j + 1];
       }
+      num_contatos--;
+      printf("Contato deletado com Sucesso!\n");
+      return;
+    }
+  }
+  printf("O Contato não foi encontrado!\n");
+}
