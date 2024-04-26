@@ -64,3 +64,10 @@ void salvar_agenda() {
   printf("Agenda salva com Sucesso!\n");
 }
 //ok função salvar agenda
+
+void carregar_agenda() {
+  FILE *arquivo = fopen("agenda.bin", "rb");
+  if (arquivo == NULL) {
+    printf("Erro ao abrir o arquivo!\n");
+    return;
+  }
