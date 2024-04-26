@@ -51,3 +51,11 @@ void deletar_contato(char *telefone) {
 }
 
 \\ ok função deletar
+
+
+void salvar_agenda() {
+  FILE *arquivo = fopen("agenda.bin", "wb");
+  if (arquivo == NULL) {
+    printf("Erro ao abrir o Arquivo!\n");
+    return;
+  }
