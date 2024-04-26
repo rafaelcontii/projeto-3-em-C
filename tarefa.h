@@ -9,3 +9,11 @@ typedef struct {
   char email[MAX_LENGTH];
   char telefone[MAX_LENGTH];
 } Contato;
+
+void adicionar_contato();
+void listar_contatos();
+void deletar_contato(char *telefone);
+void salvar_agenda();
+void carregar_agenda();
+
+#endif /* CONTACTS_H */
