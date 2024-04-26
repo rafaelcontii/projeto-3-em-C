@@ -33,3 +33,5 @@ void listar_contatos() {
            agenda[i].email, agenda[i].telefone);
   }
 }
+
+\\ok função listar
