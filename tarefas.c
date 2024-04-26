@@ -16,3 +16,10 @@ void adicionar_contato() {
     scanf("%s", novo_contato.email);
     printf("Digite o Telefone: ");
     scanf("%s", novo_contato.telefone);
+    agenda[num_contatos++] = novo_contato;
+    printf("Contato adicionado com sucesso!\n");
+  } else {
+    printf("O limite de contatos chegou ao limite, exclua contatos para "
+           "adionar mais!\n");
+  }
+}
